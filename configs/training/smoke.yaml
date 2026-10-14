@@ -1,0 +1,15 @@
+# Change only stage/data through scripts/smoke.py; same Trainer as production.
+stage: alignment
+data: data/manifests/demo/alignment/train.jsonl
+seed: 42
+batch_size: 2
+gradient_accumulation: 2
+max_steps: 3
+max_length: 128
+learning_rate: 0.001
+weight_decay: 0.0
+warmup_steps: 0
+max_grad_norm: 1.0
+precision: fp32
+gradient_checkpointing: false
+save_every: 2

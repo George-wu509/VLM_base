@@ -1,0 +1,23 @@
+# Same native nanoVLM backbones, random and small; offline pipeline checks only.
+vit_hidden_dim: 32
+vit_inter_dim: 64
+vit_patch_size: 8
+vit_img_size: 32
+vit_n_heads: 4
+vit_n_blocks: 2
+vit_cls_flag: false
+lm_hidden_dim: 32
+lm_inter_dim: 64
+lm_n_heads: 4
+lm_n_kv_heads: 2
+lm_n_blocks: 2
+lm_vocab_size: 1411
+lm_max_position_embeddings: 512
+lm_max_length: 128
+lm_use_tokens: false
+lm_tie_weights: true
+mp_pixel_shuffle_factor: 2
+vlm_load_backbone_weights: false
+tokenizer_backend: byte
+spatial_tokens: true
+vision_num_classes: 2

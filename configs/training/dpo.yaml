@@ -1,0 +1,21 @@
+stage: dpo
+data: data/manifests/dpo/train.jsonl
+seed: 42
+batch_size: 1
+gradient_accumulation: 4
+max_steps: 500
+max_length: 256
+learning_rate: 0.00001
+dpo_beta: 0.1
+train_embeddings: false
+lora:
+  rank: 8
+  alpha: 16
+  dropout: 0.0
+  targets: [q_proj, v_proj]
+weight_decay: 0.01
+warmup_steps: 25
+max_grad_norm: 1.0
+precision: bf16
+gradient_checkpointing: true
+save_every: 100

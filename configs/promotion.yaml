@@ -1,0 +1,13 @@
+# Customize gates to your held-out benchmark; these are example acceptance rules.
+metrics:
+  loss:
+    direction: lower
+    max_regression: 0.0
+  vqa/exact_match:
+    direction: higher
+    max_regression: 0.02
+    minimum: 0.5
+  grounding/grounding_recall_at_0_5:
+    direction: higher
+    max_regression: 0.02
+    minimum: 0.5

@@ -1,0 +1,14 @@
+# nanoVLM v0.1 (222M) backbone pair. Projector starts random.
+vit_model_type: google/siglip-base-patch16-224
+lm_model_type: HuggingFaceTB/SmolLM2-135M
+lm_tokenizer: HuggingFaceTB/cosmo2-tokenizer
+vit_revision: 7fd15f0689c79d79e38b1c2e2e2370a7bf2761ed
+lm_revision: 93efa2f097d58c2a74874c7e644dbc9b0cee75a2
+tokenizer_revision: 4ce2318a3628e77279c939ed6a9f3f03034402de
+vlm_load_backbone_weights: true
+tokenizer_backend: hf
+spatial_tokens: false
+vit_cls_flag: false
+lm_use_tokens: false
+mp_pixel_shuffle_factor: 2
+vision_num_classes: 2

@@ -1,0 +1,13 @@
+# Install the appropriate torch wheel first; see README for CUDA 12.4 / CPU.
+torch==2.6.0
+transformers==4.51.3
+huggingface-hub==0.30.2
+safetensors==0.5.3
+numpy==2.2.5
+Pillow==11.2.1
+PyYAML==6.0.2
+pytest==8.3.5
+fastapi==0.115.12
+uvicorn==0.34.2
+python-multipart==0.0.20
+httpx==0.28.1

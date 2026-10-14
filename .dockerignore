@@ -1,0 +1,8 @@
+.venv
+.git
+.cache
+artifacts
+data
+vendor
+__pycache__
+.pytest_cache

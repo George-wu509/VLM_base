@@ -1,0 +1,4 @@
+device: auto
+max_new_tokens: 64
+temperature: 0.0
+top_k: 0

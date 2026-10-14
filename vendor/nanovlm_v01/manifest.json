@@ -1,0 +1,39 @@
+{
+  "repository": "https://github.com/huggingface/nanoVLM",
+  "tag": "v0.1",
+  "commit": "6ba9082e16f1fc8c21a1f8d0c54b26c9233c8771",
+  "files": {
+    "README.md": {
+      "git_blob_sha1": "01a2e565e057a4d9d235fef9f367ead3c8a420f9",
+      "sha256": "cbc7dddb7a2b677456a33ea334b24290ace2a13d64a32af1ffacda3e328e8376"
+    },
+    "models/config.py": {
+      "git_blob_sha1": "57598808a65bfffbf8cb3d1279282b48f6ef7499",
+      "sha256": "38d4bf2c4b02a1cacd42b04836e4a81ef2164a3a4dd4132883ffa595789d8c7d"
+    },
+    "models/language_model.py": {
+      "git_blob_sha1": "5b7b79c416dda7e7c335ef3f9f12975cd6c61d9a",
+      "sha256": "2a20b9fd73d9b9094f5e766fe7b5aacd114c9edd429039ef4cd841c40ccb17a4"
+    },
+    "models/modality_projector.py": {
+      "git_blob_sha1": "98e162f2c7c20fd8ed53ab7491b43aba1ca0a3b2",
+      "sha256": "b05b9b8d4561391e6920b538582beb2d9a7a8820a2007d8c570d26e55a42c272"
+    },
+    "models/utils.py": {
+      "git_blob_sha1": "4e965f3d84e4c3740bf1c164d8120fa9b684d5fe",
+      "sha256": "f6f89980f97ae5af88a2d2b4a0dac415fe4eef49a4cae67b01d8967048c00043"
+    },
+    "models/vision_language_model.py": {
+      "git_blob_sha1": "871194183ae7f2e12346c9eeb8ce40064bf692f0",
+      "sha256": "7e3ccbd2f95e72b3f343fa5fe18b49f3904524868ecfde2107cfb1cdd36a207c"
+    },
+    "models/vision_transformer.py": {
+      "git_blob_sha1": "0cee43a1a88f6cad3c70b2a4b1637904b248e3c5",
+      "sha256": "7baa643bfc1b854e1cd158a8ff496c93230704455e287d937901220d0e46ca57"
+    },
+    "train.py": {
+      "git_blob_sha1": "b5be079733444e7c4feaf6a8169fbc5bd709cd89",
+      "sha256": "46a02e20a02cfcc9f7f0b3bace77ae18f4587d0470ea2ad0cc7153c566dc7caa"
+    }
+  }
+}

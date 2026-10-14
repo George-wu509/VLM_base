@@ -1,0 +1,15 @@
+# Optional educational supervised classification, not a full SigLIP pretraining reproduction.
+stage: vision_pretrain
+data: data/manifests/vision_pretrain/train.jsonl
+seed: 42
+batch_size: 2
+gradient_accumulation: 4
+max_steps: 500
+max_length: 128
+learning_rate: 0.0001
+weight_decay: 0.01
+warmup_steps: 25
+max_grad_norm: 1.0
+precision: bf16
+gradient_checkpointing: true
+save_every: 100
